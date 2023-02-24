@@ -14,8 +14,17 @@ class User{
     }
 }
 
+
+class Admin extends User{
+    deleteUser(user){
+        users = users.filter(u => {
+            return u.email != user.email
+        })
+    }
+}
+
+
 var userOne = new User ("emma", 20, "male");
 var userTwo = new User ("israel", 22, "male");
 
-userOne.login().logout()
-userTwo.login().logout()
+var users = [userOne, userTwo];
