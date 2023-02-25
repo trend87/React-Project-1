@@ -28,3 +28,11 @@ var userOne = new User ("emma", 20, "male");
 var userTwo = new User ("israel", 22, "male");
 
 var users = [userOne, userTwo];
+
+// Javascript Prototype Construction Function Model
+
+function NewUser(email, name, age){
+    this.email = email,
+    this.name = name,
+    this.age = age
+}
