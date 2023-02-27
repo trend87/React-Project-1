@@ -1,4 +1,17 @@
-ReactDOM.render(<h1>Hello Israel</h1>, document.getElementById('root'))
+function MainContent() {
+    return (<h1>Hello I'm Learning React</h1>)
+}
+
+ReactDOM.render(
+    <div>
+        
+        <MainContent />
+    
+    </div>, 
+
+    document.getElementById("root")
+    
+    )
 
 
 
@@ -13,7 +26,7 @@ ReactDOM.render(<h1>Hello Israel</h1>, document.getElementById('root'))
 
 
 
-// class User{
+// className User{
 //     constructor(name, age, gender){
 //         this.name = name;
 //         this.age = age;
@@ -30,7 +43,7 @@ ReactDOM.render(<h1>Hello Israel</h1>, document.getElementById('root'))
 // }
 
 
-// class Admin extends User{
+// className Admin extends User{
 //     deleteUser(user){
 //         users = users.filter(u => {
 //             return u.email != user.email
