@@ -1,18 +1,12 @@
-function MainContent() {
-    return (<h1>Hello I'm Learning React</h1>)
-}
+const page =
+        (
+           <div>
+            <h1>Hello World</h1>
+            <p>I'm Israel and i am learning React</p>
+           </div> 
+        )
 
-ReactDOM.render(
-    <div>
-        
-        <MainContent />
-    
-    </div>, 
-
-    document.getElementById("root")
-    
-    )
-
+    ReactDOM.render(page, document.getElementById("root"))
 
 
 
