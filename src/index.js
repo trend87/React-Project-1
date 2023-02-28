@@ -20,7 +20,7 @@ function Header() {
 function MainContent() {
   return (
 
-    <div>
+    <div className="mainContent">
         <h1>Reasons I'm Excited To Learn React</h1>
         <ol>
           <li>Because it is user friendly</li>
@@ -34,7 +34,7 @@ function MainContent() {
 function Footer() {
     return (
 
-      <footer>
+      <footer className="footer">
           <p> &copy; 2023 Robert's development. All Rights reserved.</p>
       </footer>
 
