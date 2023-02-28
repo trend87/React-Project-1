@@ -1,11 +1,17 @@
 import react from "react"
 import ReactDOM from "react-dom"
+import "./index.css"
 
 function Header() {
   return (
-    <header>
-          <nav>
-            <img src="./logo512.png" width="100" />
+    <header >
+          <nav className="nav">
+            <img src="./logo512.png" className="logo" />
+            <ul className="nav-items" >
+              <li>Pricing</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
           </nav>
       </header>
   )
@@ -16,10 +22,10 @@ function MainContent() {
 
     <div>
         <h1>Reasons I'm Excited To Learn React</h1>
-        <ul>
+        <ol>
           <li>Because it is user friendly</li>
           <li>Because i want to improve my web development skills</li>
-        </ul>
+        </ol>
     </div>
     
   )
