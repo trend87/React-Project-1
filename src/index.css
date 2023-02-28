@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: #21222A;
     color: white;
     padding: 1% 3%;
     
@@ -40,19 +40,27 @@ margin-left: 2px;
 
 
 .mainContent{
-    padding: 4% 4%;
+    padding: 6% 8%;
     background-color: #282D35;
     height: 100vh;
     color: white;
-    position: fixed;
-    width: 100%;
+    background-image: url('./images/react-background-image.png');
+    background-repeat: no-repeat;
+    background-position: right 150px;
+    background-size: 200px;
+    
 }
 
 .mainContent ul li{
     margin-top: 20px;
     font-weight: lighter;
-    color: #61DAFB;
+    color: white;
     line-height: 30px;
+}
+
+.mainContent ul li::marker{
+    font-size: 23px;
+    color: #61DAFB;
 }
 
 
